@@ -1,4 +1,3 @@
-# Firebase_Chatting_Application_With_Pure_java
 # Chatup: Real-time Chat Application
 
 Welcome to Chatup, your open-source solution for creating real-time chat applications with friends! This project leverages the power of Firebase to provide a seamless and interactive chatting experience.
