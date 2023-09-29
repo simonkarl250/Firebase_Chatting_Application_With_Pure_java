@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts.Contacts">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/navTitle"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/contbackBtn"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_back_light_10"
+        android:paddingStart="12sp"
+        android:paddingEnd="2dp"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#4F06F3"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+
+
+
+</RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contact_recycler"
+        android:layout_below="@+id/navTitle"
+
+        tools:listitem="@layout/item_contact"/>
+
+</RelativeLayout>
